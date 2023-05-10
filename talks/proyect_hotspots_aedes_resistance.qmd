@@ -41,21 +41,22 @@ highlight-style: a11y
 ![](){.absolute top="250" left="600" width="550"}
 
 
-## [Hotspots vs Resistencia a Insecticidas]{style="color:#003300;align-items: center"}
+## [Objetivo]{style="color:#003300;align-items: center"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
-<br>
-<p style="color:#660033;">Objetivo</p>
 <br>
 <p style="color:#660033;">Determinar la concordancia espacial entre los hotspots de transmisión de las arbovirosis & la resistencia a insecticidas de *Aedes aegypti*. </p>
 
 
-## [Hotspots vs Resistencia a Insecticidas]{style="color:#003300;align-items: center"}
+## [Hipótesis]{style="color:#003300;align-items: center"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
-<p style="color:#660033;">Hipótesis</p>
 <br>
-<p style="color:#660033;">Las áreas identificadas como los hotspots de transmisión de las arbovirosis son áreas donde existe una alta presion de selección de resistencia la cual es reflejada en elevados niveles de resistencia (LC50), altas frecuencias de genes de resistencia (V1016I & F1534C) y elevados niveles enzimáticos (esterasas,  alfa y beta esterasas, glutation s-transferesas, pnpa esterasas, y Citocromo p450) </p>
+<p style="color:#660033;">Las áreas identificadas como los hotspots de transmisión de las arbovirosis son áreas donde existe una alta presión de selección de resistencia en *Aedes aegypti*, la cual es reflejada en elevados niveles de resistencia (LC50), altas frecuencias de genes de resistencia (V1016I & F1534C) y elevados niveles enzimáticos (esterasas,  alfa y beta esterasas, glutation s-transferesas, pnpa esterasas, y Citocromo p450). </p>
+
+## [Material y Métodos]{style="color:#003300;align-items: center"}
+<hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+
 
 
 ## [Dios Botic]{style="color:#003300;"}
