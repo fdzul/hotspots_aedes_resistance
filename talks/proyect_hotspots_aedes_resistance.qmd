@@ -9,7 +9,7 @@ format:
 highlight-style: a11y
 ---
 
-<h2>Concordancia Espacial de los hotspots de las arbovirosis<br>& la resistencia a insecticidas</h2>
+<h2>Relación entre la transmisión persistente/reciente de dengue<br>& la resistencia a insecticidas</h2>
 
 <h2>
 
@@ -24,6 +24,7 @@ highlight-style: a11y
 <h5>Dr. Heron Huerta</h5>
 
 <h5>Dr. Abdiel Park</h5>
+
 <h5>Dra. Yamile Perrera-Contreras</h5>
 
 <h3>
@@ -40,26 +41,80 @@ highlight-style: a11y
 
 ![](){.absolute top="250" left="600" width="550"}
 
-
 ## [Objetivo]{style="color:#003300;align-items: center"}
+
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 <br>
-<p style="color:#660033;">Determinar la concordancia espacial entre los hotspots de transmisión de las arbovirosis & la resistencia a insecticidas de *Aedes aegypti*. </p>
 
+<p style="color:#660033;">
+
+Determinar la concordancia espacial entre la transmisión persistente(hotspots)/reciente (cadenas de transmisión) de las arbovirosis & la resistencia a insecticidas de *Aedes aegypti*.</p>
 
 ## [Hipótesis]{style="color:#003300;align-items: center"}
+
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 <br>
-<p style="color:#660033;">Las áreas identificadas como los hotspots de transmisión de las arbovirosis son áreas donde existe una alta presión de selección de resistencia en *Aedes aegypti*, la cual es reflejada en elevados niveles de resistencia (LC50), altas frecuencias de genes de resistencia (V1016I & F1534C) y elevados niveles enzimáticos (esterasas,  alfa y beta esterasas, glutation s-transferesas, pnpa esterasas, y Citocromo p450). </p>
+
+<p style="color:#660033;">
+
+
+Las áreas con transmisión persistente y con transmisión reciente de dengue (determinados con los hotspots y las cadenas de transmisión, respectivamente) en los centros urbanos, son áreas donde existe una alta presión de selección de resistencia en *Aedes aegypti*, la cual es reflejada en elevados niveles de resistencia (LC50), altas frecuencias de genes de resistencia (V1016I & F1534C) y elevados niveles enzimáticos (esterasas, alfa y beta esterasas, glutation s-transferasas, pnpa esterasas, y Citocromo p450).
+</p>
 
 ## [Material y Métodos]{style="color:#003300;align-items: center"}
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
+```{r}
+DiagrammeR::grViz("digraph {
+                  # graph definitions
+  graph [layout = dot, rankdir = TB]
+  
+  # node definitions
+  node [shape = rectangle, style = filled, color = grey, 
+  nodesep = 1, 
+  fixedsize = true, 
+  width = 12] 
+  
+  # edge definition
+  edge [color = grey, arrowhead = normal, arrowtail = dot]
+  
+  ##### datasets
+  
+  step1 [label = 'Describir & Analizar la situación de las ETVS',  fillcolor =  '#0F9D58', color = 'white', fontcolor = 'white', fontsize = 20]
+  
+  step2 [label = 'Estratificar la ETV basado en variables relevantes',  fillcolor =  ' #0F9D58', color = 'white', fontcolor = 'white', fontsize = 20]
+  
+  step3 [label = 'Determinar el control de vectores en cada estrato',  fillcolor =  ' #0F9D58', color = 'white', fontcolor = 'white',fontsize = 20]
+
+  step4 [label = 'Determinar qué método(s) es(son) adecuado(s)',  fillcolor =  ' #0F9D58', color = 'white', fontcolor = 'white', fontsize = 20]
+ 
+ # 
+ step5 [label = 'Cuando el uso de insecticidas sea esencial, seleccionar el(los) método(s) de aplicación',  fillcolor =  '#DB4437', color = 'white', fontcolor = 'white', fontsize = 20]
+ 
+
+ # final dataset
+ 
+ step6 [label = 'Determinar qué insecticida usar y cuándo, dónde y cómo aplicarlo',  fillcolor =  '#DB4437', color = 'white', fontcolor = 'white', fontsize = 20]
+ 
+ ###
+ step7 [label = 'Establecer productos y objetivos operativos y seleccionar métodos de seguimiento y evaluación',  fillcolor =  '#2EB67D', color = 'white', fontcolor = 'white', fontsize = 20]
+ 
+ ##### define the relation
+ 
+ step1 -> step2 -> step3 -> step4 -> step5 -> step6 -> step7
+ 
+ 
+}")
+```
+
+
+
 
 
 ## [Dios Botic]{style="color:#003300;"}
+
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
 
 -   ***Bio*** : https://fdzul.github.io/web_site_fadm/

@@ -317,6 +317,10 @@
       margin-right: 0; 
     }
   </style>
+  <script src="proyect_hotspots_aedes_resistance_files/libs/htmlwidgets-1.6.1/htmlwidgets.js"></script>
+  <script src="proyect_hotspots_aedes_resistance_files/libs/viz-1.8.2/viz.js"></script>
+  <link href="proyect_hotspots_aedes_resistance_files/libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
+  <script src="proyect_hotspots_aedes_resistance_files/libs/grViz-binding-1.0.9/grViz.js"></script>
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -326,7 +330,7 @@
 <section class="slide level2">
 
 <h2>
-Concordancia Espacial de los hotspots de las arbovirosis<br>&amp; la resistencia a insecticidas
+Relación entre la transmisión persistente/reciente de dengue<br>&amp; la resistencia a insecticidas
 </h2>
 <h2>
 </h2>
@@ -359,22 +363,29 @@ Dra. Yamile Perrera-Contreras
 <section id="objetivo" class="slide level2">
 <h2><span style="color:#003300;align-items: center">Objetivo</span></h2>
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
-<br>
+<p><br></p>
 <p style="color:#660033;">
-Determinar la concordancia espacial entre los hotspots de transmisión de las arbovirosis &amp; la resistencia a insecticidas de <em>Aedes aegypti</em>.
+Determinar la concordancia espacial entre la transmisión persistente(hotspots)/reciente (cadenas de transmisión) de las arbovirosis &amp; la resistencia a insecticidas de <em>Aedes aegypti</em>.
 </p>
 </section>
 <section id="hipótesis" class="slide level2">
 <h2><span style="color:#003300;align-items: center">Hipótesis</span></h2>
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
-<br>
+<p><br></p>
 <p style="color:#660033;">
-Las áreas identificadas como los hotspots de transmisión de las arbovirosis son áreas donde existe una alta presión de selección de resistencia en <em>Aedes aegypti</em>, la cual es reflejada en elevados niveles de resistencia (LC50), altas frecuencias de genes de resistencia (V1016I &amp; F1534C) y elevados niveles enzimáticos (esterasas, alfa y beta esterasas, glutation s-transferesas, pnpa esterasas, y Citocromo p450).
+Las áreas con transmisión persistente y con transmisión reciente de dengue (determinados con los hotspots y las cadenas de transmisión, respectivamente) en los centros urbanos, son áreas donde existe una alta presión de selección de resistencia en <em>Aedes aegypti</em>, la cual es reflejada en elevados niveles de resistencia (LC50), altas frecuencias de genes de resistencia (V1016I &amp; F1534C) y elevados niveles enzimáticos (esterasas, alfa y beta esterasas, glutation s-transferasas, pnpa esterasas, y Citocromo p450).
 </p>
 </section>
 <section id="material-y-métodos" class="slide level2">
 <h2><span style="color:#003300;align-items: center">Material y Métodos</span></h2>
 <hr style="height:2px;border-width:0;color:#330019;background-color:#330019">
+<div class="cell">
+<div class="cell-output-display">
+
+<div class="grViz html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-e39cba6537ef73c3bd4f" style="width:960px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-e39cba6537ef73c3bd4f">{"x":{"diagram":"digraph {\n                  # graph definitions\n  graph [layout = dot, rankdir = TB]\n  \n  # node definitions\n  node [shape = rectangle, style = filled, color = grey, \n  nodesep = 1, \n  fixedsize = true, \n  width = 12] \n  \n  # edge definition\n  edge [color = grey, arrowhead = normal, arrowtail = dot]\n  \n  ##### datasets\n  \n  step1 [label = \"Describir & Analizar la situación de las ETVS\",  fillcolor =  \"#0F9D58\", color = \"white\", fontcolor = \"white\", fontsize = 20]\n  \n  step2 [label = \"Estratificar la ETV basado en variables relevantes\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\", fontsize = 20]\n  \n  step3 [label = \"Determinar el control de vectores en cada estrato\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\",fontsize = 20]\n\n  step4 [label = \"Determinar qué método(s) es(son) adecuado(s)\",  fillcolor =  \" #0F9D58\", color = \"white\", fontcolor = \"white\", fontsize = 20]\n \n # \n step5 [label = \"Cuando el uso de insecticidas sea esencial, seleccionar el(los) método(s) de aplicación\",  fillcolor =  \"#DB4437\", color = \"white\", fontcolor = \"white\", fontsize = 20]\n \n\n # final dataset\n \n step6 [label = \"Determinar qué insecticida usar y cuándo, dónde y cómo aplicarlo\",  fillcolor =  \"#DB4437\", color = \"white\", fontcolor = \"white\", fontsize = 20]\n \n ###\n step7 [label = \"Establecer productos y objetivos operativos y seleccionar métodos de seguimiento y evaluación\",  fillcolor =  \"#2EB67D\", color = \"white\", fontcolor = \"white\", fontsize = 20]\n \n ##### define the relation\n \n step1 -> step2 -> step3 -> step4 -> step5 -> step6 -> step7\n \n \n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
 </section>
 <section id="dios-botic" class="slide level2">
 <h2><span style="color:#003300;">Dios Botic</span></h2>
