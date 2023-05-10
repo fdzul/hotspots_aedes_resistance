@@ -4,7 +4,7 @@ format:
     #theme: ["theme/q-theme.scss"]
     slide-number: c/t
     logo: "https://www.gob.mx/cms/uploads/action_program/main_image/26942/post_post_portadavectores.gif"
-    footer: "[github.com/fdzul](https://lovely-licorice-326d63.netlify.app/talks/dipteros_imp_medica)"
+    footer: "[github.com/fdzul](https://playful-frangipane-0b13ec.netlify.app/talks/anteproyecto/anteproyecto_hotspots_aedes_resistance#/)"
     center-title-slide: true
 highlight-style: a11y
 ---
@@ -32,8 +32,6 @@ highlight-style: a11y
 </h3>
 
 <h5>2023-05-11</h5>
-
-<br>
 
 <h4>
 
@@ -512,7 +510,7 @@ Ache [label = 'AChe',  fillcolor =  '#ECB22E', color = 'white', fontcolor = 'bla
 
 -   ***celular*** : [8139945623]()
 
--   ***slides***: https://lovely-licorice-326d63.netlify.app/talks/dipteros_imp_medica/#/
+-   ***slides***: https://playful-frangipane-0b13ec.netlify.app/talks/anteproyecto/anteproyecto_hotspots_aedes_resistance#/
 
 
 
